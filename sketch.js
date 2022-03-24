@@ -53,7 +53,7 @@ function preload()
 }
 
 function setup() {
-  createCanvas(667,375);
+  createCanvas(365,667);
 
   frameRate(80);
 
@@ -84,7 +84,7 @@ function setup() {
   blink.frameDelay = 20;
   eat.frameDelay = 20;
 
-  bunny = createSprite(420,620,100,100);
+  bunny = createSprite(120,620,100,100);
   bunny.scale = 0.2;
 
   bunny.addAnimation('blinking',blink);
